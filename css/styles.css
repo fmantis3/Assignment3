@@ -1,14 +1,42 @@
-{ 
-    box-sizing: border-box; 
-    margin: 0; 
+
+*
+{
+    font-family: Helvetica;
+}
+*
+{
+    box-sizing: border-box;
 }
 
-body {
-    background-image: url"
-        (Images/492767389.jpg.0.jpg)";
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+a
+{
+    color: #7e00ce;
+    
+}
+
+.rose
+{
+    height: 120px;
+}
+.sun
+{
+    height: 120px;
+}
+.calla{
+    height: 120px
+}
+ul{
+    color: #7e00ce
+}
+#para
+{
+    font-family: cursive;
+    font-size: 24px;
+    color: #4b0096;
+    
+}
+#Sunflowers
+
+{
+    color : #7e00ce;
 }
