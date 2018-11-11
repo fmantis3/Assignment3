@@ -8,9 +8,39 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+    
+        
+    }
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-around;
+    
+}
+
 a
 {
-    color: #7e00ce;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
     
 }
 
@@ -26,17 +56,35 @@ a
     height: 120px
 }
 ul{
-    color: #7e00ce
+    color: white;
 }
 #para
 {
     font-family: cursive;
     font-size: 24px;
-    color: #4b0096;
+    color: white;
     
 }
 #Sunflowers
 
 {
-    color : #7e00ce;
+    color : white;
+
 }
+#Logo{
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+    justify-content: center;
+    
+}
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer {
+        flex-direction: column;
+    }    
